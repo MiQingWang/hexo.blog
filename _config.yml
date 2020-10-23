@@ -5,7 +5,7 @@
 # Site
 title: MiQing Blog
 subtitle: '无惧艰难，让生活更幸福更充实，努力起飞！'
-description: ''
+description: 'MiQing的个人站,主要涉及android 开发及java开发知识分享及前沿技术探索'
 keywords:
 author: MiQing
 language: zh-Hans
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://miqingwang.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -58,7 +58,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 12
   order_by: -date
 
 # Category & Tag
