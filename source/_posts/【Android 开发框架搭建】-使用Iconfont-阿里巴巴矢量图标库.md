@@ -8,6 +8,7 @@
 ### 1. 前往阿里巴巴矢量图标下载字体文件
 注：字体只支持单色图标哦，如项目需要使用多色图标可以使用SVG矢量图标，后续章节再介绍Android中如何使用阿里巴巴矢量图标SVG方式的。
 
+<!-- more -->
 ![iconfont-logo](https://img.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico) [阿里巴巴矢量图标网站](https://www.iconfont.cn/)
 
 进入网站登录后，按下方步骤获取字体文件
@@ -35,7 +36,7 @@
 在Android项目的assets目录中添加iconfont.ttf的字体文件
 ![步骤10](%E3%80%90Android%20%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E3%80%91-%E4%BD%BF%E7%94%A8Iconfont-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%9F%A2%E9%87%8F%E5%9B%BE%E6%A0%87%E5%BA%93/%E6%AD%A5%E9%AA%A4%E5%9B%BE%E7%89%87/10.png)
 然后在项目中新建一个继承AppCompatTextView的自定义TextView代码如下:
-```python
+```java
 public class IconTextView extends AppCompatTextView {
     public IconTextView(Context context) {
         super(context);
@@ -59,7 +60,7 @@ public class IconTextView extends AppCompatTextView {
 }
 ```
 自定义TextView创建完成后我们就可以使用字体图标了使用方式如下:
-```python
+```java
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
